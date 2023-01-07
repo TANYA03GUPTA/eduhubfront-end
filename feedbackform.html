@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK FORM</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgba(127, 255, 212, 0.425);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        <center>
+            FEEDBACK FORM
+        </center>
+    </h1>
+  <div>
+    <label for="name">Name</label>
+   <div >
+       <input 
+           type="text" id="name" name="Myname" placeholder="ENTER YOUR NAME"/>
+   </div>
+   <br>
+   <label for="email">EMAIL-ADDRESS</label>
+   <div >
+       <input 
+           type="email" id="email" name="email" placeholder="ENTER A VALID EMAIL ID"/>
+   </div>
+   <br>
+   <label for="Age">ENTER YOUR AGE</label>
+   <div >
+       <input 
+           type="number" id="Age" name="Age" placeholder="AGE" inputmode="numeric"/>
+   </div>
+   <br>
+   <div>Which option best describes you?</div>
+   <select  name="occupation" id="occupation">
+    <option value="Student">Student</option>
+    <option value="working full time">working full time</option>
+    <option value="working half time">working half time</option>
+    <option value="not working">not working</option>
+  </select>
+  </div>  
+  <div>
+    <label for="ans"> DID YOU LIKE MY PAGE?</label>
+  </div>
+   <div>
+    <input id="ans" name="ans" text-align="center" type="radio"/>
+         YES <br>
+    <input id="ans" name="ans" text-align="center" type="radio"/>
+         No     
+   </div>
+   <div>
+    <label for="suggestions">ANY suggestions FOR IMPROVEMENT?</label>
+   </div>
+     <input id="suggestions" type="text"  minlength="3" maxlength="1500" required 
+     style="height:120px; width:200px;">
+     <br>
+     <br>
+     <button type="submit">Submit</button>  
+</body>
+</html>
